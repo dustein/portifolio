@@ -4,7 +4,7 @@
 }
 
 body {
-  font-size: 42px;
+  font-size: 24px;
   text-align: center;
   line-height: 1.5;
   background-color: #F0F0F0;
@@ -16,7 +16,14 @@ footer {
   color: grey;
 }
 
+#apps {
+  background-color: rgb(253, 209, 193);
+  display: flex;
+  padding: 2rem;
+}
+
 .apps-icones {
+  background-color: #ffffff;
   border: solid;
   border-radius: 50%;
   width: 30rem;
