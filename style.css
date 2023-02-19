@@ -5,7 +5,7 @@
 
 a {
   text-decoration: none;
-  box-shadow: inset 0 0 0 0 #FF1E00;
+  box-shadow: inset 0 0 0 0 #043565;
   border-radius: 50%;
   color: #000;
   margin: 0 -.25rem;
@@ -13,33 +13,41 @@ a {
   transition: color .9s ease-in-out, box-shadow .9s ease-in-out;
 }
 a:hover {
-  box-shadow: inset 150px 0 0 0 #FF1E00;
+  box-shadow: inset 150px 0 0 0 #043565;
   color: white;
   border-radius: 50%;
 }
 
+#ppt-duda {
+  background-image: url(/media/ppt-duda.png);
+  background-size: cover;
+}
+
 body {
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   line-height: 1.5;
-  background-color: #E8F9FD;
-  padding-top: 50px;
+  background-color: #CCCCCC;
+  color: #2A3421;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-  background-color: black;
-  color: #FF1E00;
+  background-color: #2A3421;
+  color: #EAEAEA;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0.2rem 0 0.5rem 1rem;
+  margin: 0;
 }
 
 #sitetitle {
   font-family: 'Arvo', serif;
   font-size: 28px;
+  text-shadow: #E8F9FD 1px 0 2px;
 }
 
 #sitesubtitle {
@@ -48,24 +56,34 @@ header {
 }
 
 footer {
-  background-color: black;
-  color: #FF1E00;
+  background-color: #56282D;
+  color: #EAEAEA;
+}
+
+.description {
+  padding: 1rem 0.2rem 1rem 0.2rem;
+}
+
+#portifolio {
+  font-size: 18px;
 }
 
 .apps {
-  background-color: #59CE8F;
+  background-color: #7F7F7F;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
 }
 
 .apps-icones {
-  background-color: #ffffff;
+  background-color: #2A3421;
   border: solid 2px;
-  border-color: #FF1E00;
+  border-color: #CCCCCC;
   border-radius: 50%;
   width: 150px;
   height: 150px;
   display: flex;
+  justify-content: center;
   align-items: center;
+  padding: 0.5rem;
 }
