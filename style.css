@@ -16,7 +16,7 @@ body {
 
 header {
   color: #FF7700;
-  background-color: #042A2B;
+  background-color: #021313;
   font-family: 'Oswald', sans-serif;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ header {
 footer {
   align-self: flex-end;
   margin-top: auto;
-  background-color: black;
+  background-color: #240311;
   color: #F2F7F2;
   width: 100%;
   text-align: center;
