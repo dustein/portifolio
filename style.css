@@ -58,7 +58,7 @@ footer {
 }
 
 .app-icone:hover {
-  box-shadow: -50px 5px 50px black;
+  box-shadow: -50px 5px 50px rgb(95, 94, 94);
 }
 
 .icones {
@@ -70,7 +70,7 @@ footer {
 
 #projetos {
   font-size: 2rem;
-  color: #042A2B;
+  color: #042a2ba3;
 }
 
 #ppt-duda {
