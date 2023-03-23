@@ -1,13 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
 a {  
   text-decoration: none;
   color: #042A2B;
 }
 
 body {
+  font-size: 24px;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -21,7 +19,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
 }
 
 footer {
@@ -81,4 +80,13 @@ footer {
 }
 #preco-cerveja {
   background-image: url("midia/preco-cerveja.png");
+}
+
+#headLeft {
+  font-size: 1.9rem;
+  line-height: 1.5em;
+}
+
+#titulo {
+  font-size: 3rem;
 }
