@@ -1,7 +1,14 @@
+html {
+  font-size: 62.5%;
+}
 
 a {  
   text-decoration: none;
   color: #042A2B;
+}
+
+p {
+  font-size: 2rem;
 }
 
 body {
@@ -43,21 +50,18 @@ footer {
 
 .apps-icones {
   margin-top: 50px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
+  column-gap: 1em;
 }
 
-.app-icone {
-  min-width: 200px;
-  min-height: 200px;
+
+.app-icone img {
+  border: solid 0.1em;
   border-radius: 15%;
   box-shadow: 3px 5px 10px black;
-  margin-bottom: 1em;
-}
-
-.app-icone:hover {
-  box-shadow: -50px 5px 50px rgb(95, 94, 94);
+  margin-bottom: 0.5em;
 }
 
 .icones {
@@ -68,18 +72,8 @@ footer {
 }
 
 #projetos {
-  font-size: 2rem;
+  font-size: 3.2rem;
   color: #042a2ba3;
-}
-
-#ppt-duda {
-  background-image: url("midia/ppt-duda.png");  
-}
-#adventure {
-  background-image: url("midia/adventure.png");
-}
-#preco-cerveja {
-  background-image: url("midia/preco-cerveja.png");
 }
 
 #headLeft {
