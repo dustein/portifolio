@@ -12,15 +12,16 @@ p {
 }
 
 body {
+  height: 100vh;
   font-size: 24px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  justify-content: space-between;
   background-color: #F2F7F2;
 }
 
 header {
-  color: #FF7700;
+  color: #bc4749;
   background-color: #021313;
   font-family: 'Oswald', sans-serif;
   display: flex;
@@ -30,10 +31,20 @@ header {
   padding-bottom: 0.3em;
 }
 
+main {
+  background-color: #f2e8cf;
+  height: 100%;
+}
+
+main #projetos {
+  font-size: 2.8rem;
+  color: #000;
+}
+
 footer {
   align-self: flex-end;
   margin-top: auto;
-  background-color: #240311;
+  background-color: #386641;
   color: #F2F7F2;
   width: 100%;
   text-align: center;
@@ -41,7 +52,6 @@ footer {
 }
 
 .apps-area {
-  padding: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,12 +69,10 @@ footer {
 .app-icone img {
   border: solid 0.1em;
   border-radius: 10%;
-  margin-bottom: 0.5em;
-  margin-top: 1.8em;
 }
 
 .app-icone img:hover {
-  box-shadow: 10px 0px 150px black;
+  box-shadow: 4px 0px 15px black;
   border: none;
 }
 
@@ -75,18 +83,18 @@ footer {
   font-size: 1.2rem;
 }
 
-#projetos {
-  font-size: 3.2rem;
-  color: #042a2ba3;
+.icones img {
+  height: 220px;
 }
 
-#headLeft {
-  font-size: 1.9rem;
-  line-height: 1.5em;
-}
 
 #titulo {
   font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+#subtitulo {
+  font-size: 1.8rem;
 }
 
 @media (max-width: 630px) {
